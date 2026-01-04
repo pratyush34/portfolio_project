@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(124, 38, 38);
+    color: white;
+    padding: 10px 0px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Playwrite AU NSW", cursive;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 17px;
+    font-family: "Merriweather", serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+nav ul li a:hover {
+    color: rgb(219, 107, 107);
+} */
+ .top{
+    display: flexbox;
+    background-image: url(/img/sky.jpeg);
+    background-size: cover;
+    height: 85vh;
+    justify-items: center;
+    align-content: center;
+ }
+ .top .h{
+    color: rgb(255, 64, 0);
+    font-weight: bold;
+    font-size: 60px;
+ }
+ .top p{
+    text-align: center;
+ }
+.main{
+    padding: 50px;
+    display: flexbox;
+    justify-items: center;
+    align-content: center;
+}
+.main span{
+    margin: 50px;
+    padding: 50px;
+}
+.mail{
+    border-right: solid grey;
+}
+.linkdin{
+    border-left: solid grey;
+}
+a{
+    color: rgb(255, 64, 0);
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(255, 64, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.i1{
+    position: relative;
+    top:10px;
+}

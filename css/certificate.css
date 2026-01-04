@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(18, 76, 96), rgb(89, 154, 154));
+    color: white;
+    padding: 10px 0px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Playwrite AU NSW", cursive;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 17px;
+    font-family: "Merriweather", serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(206, 176, 168);
+}
+img{
+    width:400px;
+}
+.main{
+    background-color: rgba(151, 211, 221, 0.68);
+    display: grid;
+    /* height: 100vh; */
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+}
+.main2{
+    background-color: rgba(151, 211, 221, 0.68);
+    display: grid;
+    /* height: 100vh; */
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+}
+.main div{
+    margin:50px;
+    border:2px double rgb(37, 37, 80);
+}
+.main2 div{
+    margin:50px;
+    border:2px double rgb(37, 37, 80);
+}
+footer {
+    background-color: rgb(28, 81, 99);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

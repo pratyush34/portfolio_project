@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(70, 91, 214), rgb(3, 30, 42));
+    color: white;
+    padding: 10px 0px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Playwrite AU NSW", cursive;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 17px;
+    font-family: "Merriweather", serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(98, 84, 220);
+}
+
+.main {
+    display: grid;
+    height: 85vh;
+    background-color: rgba(89, 89, 197, 0.425);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.main div {
+    margin: 25px;
+    padding: 25px;
+    background-color: rgb(46, 46, 157);
+    width: 50vh;
+}
+
+.d1 {
+    background-image: url(/img/bluebg1.jpeg);
+    background-size: cover;
+}
+
+.d2 {
+    background-image: url(/img/bluebg2.jpeg);
+    background-size: cover;
+}
+
+.d3 {
+    background-image: url(/img/bluebg3.jpeg);
+    background-size: cover;
+}
+.main .h{
+    font-size: 24x;
+    font-weight: bold;
+}
+.main p{
+    color: white;
+    font-size: 18px;
+    background-color: rgba(49, 58, 108, 0.337);
+}
+.d4 {
+    background-image: url(/img/bluebg4.jpeg);
+    background-size: cover;
+}
+
+.d5 {
+    background-image: url(/img/bluebg5.jpeg);
+    background-size: cover;
+}
+.d6{
+    background-image: url(/img/bluebg6.jpeg);
+    background-size: cover;
+}
+.d6 a{
+    color: white;
+    font-size: 18px;
+}
+footer {
+    background-color: rgb(37, 28, 66);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

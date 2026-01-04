@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(100, 183, 28), rgb(223, 234, 96));
+    color: white;
+    padding: 10px 0px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Playwrite AU NSW", cursive;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 17px;
+    font-family: "Merriweather", serif;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(15, 60, 19);
+}
+
+.hero {
+    /* background-color: rgba(201, 241, 208,0.5); */
+    background-image: url('/img/background2.jpeg');
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    align-items: center;
+    font-family: "Merriweather", serif;
+}
+
+.hero-left .one {
+    font-size: 60px;
+    color: rgb(27, 104, 41);
+    font-weight: bold;
+}
+
+.hero-left .two {
+    font-size: 40px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(27, 112, 19);
+    color: white;
+    padding: 9px 7px;
+    border: 2px solid rgb(7, 64, 17);
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(128, 237, 60);
+}
+
+.projects {
+    background-color: rgba(57, 89, 89, 0.305);
+    display: flex;
+    align-items: center;
+}
+
+.project1 {
+    /* background-color: rgba(45, 69, 69, 0.533); */
+    background-image: url(/img/bg5.jpeg);
+    background-size: cover;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 9px;
+    width: 400px;
+}
+
+.project1 .project-image {
+    margin: 40px;
+}
+
+.img1 {
+    transition: all 0.5s;
+}
+
+.img2 {
+    transition: all 0.5s;
+}
+
+.img1:hover {
+    opacity: 0.7;
+}
+
+.img2:hover {
+    opacity: 0.8;
+}
+
+.project1 .project-info .text {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(102, 113, 93, 0.707);
+    text-align: center;
+    border: 2px solid rgb(53, 49, 49);
+}
+
+.project1 .project-info p {
+    background-color: rgba(202, 182, 182, 0.593);
+}
+
+footer {
+    background-color: rgb(11, 66, 4);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:959px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .hero-left {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .hero-right {
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero-right img {
+        width: 200px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .hero-left .two {
+        font-size: 20px;
+    }
+
+    .hero-left .one {
+        font-size: 40px;
+        position: relative;
+        bottom: cacl(100%-20px);
+    }
+
+    .project1 {
+        width: 180;
+        padding: 1px;
+        padding-left: 10%;
+        margin: 1px;
+        border-radius: 1px;
+        background-image: url();
+        background-size: contain;
+    }
+
+    /* .img1{
+    width:100px;
+}
+.img2{
+    width:100px;
+} */
+    .project1 .project-image {
+        margin: 0px;
+        display: inline;
+    }
+
+    .project1 .project-info .text {
+        padding: 1px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        width: 300px;
+    }
+
+    .project1 .project-info p {
+        font-size: 12;
+        width: 300px;
+
+    }
+}
