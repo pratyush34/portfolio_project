@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -40,7 +41,7 @@ nav ul li a:hover {
 }
 img{
     display: block;
-    width: 400px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
     object-position: center;
@@ -74,4 +75,29 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+@media screen and (max-width: 959px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .main,
+    .main2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        padding: 12px;
+    }
+
+    .main div,
+    .main2 div {
+        margin: 10px 0;
+    }
+
+    img {
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
 }

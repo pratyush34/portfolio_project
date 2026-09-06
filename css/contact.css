@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* nav {
@@ -38,7 +39,8 @@ nav ul li a:hover {
     color: rgb(219, 107, 107);
 } */
  .top{
-    display: flexbox;
+     display: flex;
+     flex-direction: column;
     background-image: url(../img/sky.jpeg);
     background-size: cover;
     height: 85vh;
@@ -55,7 +57,9 @@ nav ul li a:hover {
  }
 .main{
     padding: 50px;
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-items: center;
     align-content: center;
 }
@@ -82,4 +86,34 @@ footer {
 .i1{
     position: relative;
     top:10px;
+}
+
+@media screen and (max-width: 959px) {
+    .top {
+        min-height: 70vh;
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .top .h {
+        font-size: 42px;
+    }
+
+    .main {
+        padding: 30px 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main span {
+        width: 100%;
+        margin: 10px 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mail,
+    .linkdin {
+        border: 0;
+    }
 }
