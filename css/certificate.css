@@ -39,7 +39,11 @@ nav ul li a:hover {
     color: rgb(206, 176, 168);
 }
 img{
-    width:400px;
+    display: block;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
 .main{
     background-color: rgba(151, 211, 221, 0.68);

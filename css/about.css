@@ -56,17 +56,17 @@ nav ul li a:hover {
 }
 
 .d1 {
-    background-image: url(/img/bluebg1.jpeg);
+    background-image: url(../img/bluebg1.jpeg);
     background-size: cover;
 }
 
 .d2 {
-    background-image: url(/img/bluebg2.jpeg);
+    background-image: url(../img/bluebg2.jpeg);
     background-size: cover;
 }
 
 .d3 {
-    background-image: url(/img/bluebg3.jpeg);
+    background-image: url(../img/bluebg3.jpeg);
     background-size: cover;
 }
 .main .h{
@@ -79,16 +79,16 @@ nav ul li a:hover {
     background-color: rgba(49, 58, 108, 0.337);
 }
 .d4 {
-    background-image: url(/img/bluebg4.jpeg);
+    background-image: url(../img/bluebg4.jpeg);
     background-size: cover;
 }
 
 .d5 {
-    background-image: url(/img/bluebg5.jpeg);
+    background-image: url(../img/bluebg5.jpeg);
     background-size: cover;
 }
 .d6{
-    background-image: url(/img/bluebg6.jpeg);
+    background-image: url(../img/bluebg6.jpeg);
     background-size: cover;
 }
 .d6 a{

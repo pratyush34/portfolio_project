@@ -39,7 +39,7 @@ nav ul li a:hover {
 } */
  .top{
     display: flexbox;
-    background-image: url(/img/sky.jpeg);
+    background-image: url(../img/sky.jpeg);
     background-size: cover;
     height: 85vh;
     justify-items: center;
